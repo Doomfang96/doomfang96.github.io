@@ -50,6 +50,17 @@ a:visited {
   color: #ffffff !important;
 }
 
+@media screen and (max-width: 600px) {
+  .site-nav .trigger {
+    background-color: #ffffff;
+  }
+
+  .site-nav .trigger .page-link,
+  .site-nav .trigger .page-link:visited {
+    color: #1a1a1a !important;
+  }
+}
+
 .post-meta {
   color: var(--color-text-secondary);
 }
