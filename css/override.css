@@ -1,6 +1,50 @@
+/* ============================================
+   Dark Theme Variables
+   ============================================ */
+:root {
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #2d2d2d;
+  --color-text-primary: #e8e8e8;
+  --color-text-secondary: #b0b0b0;
+  --color-accent: #4a9eff;
+  --color-accent-hover: #2e7fcc;
+  --color-border: #404040;
+  --color-button-bg: #2d2d2d;
+  --color-button-border: #4a9eff;
+}
+
+/* ============================================
+   Dark Theme Base Styles
+   ============================================ */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.site-header,
+.post,
+.home {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  color: var(--color-accent-hover);
+}
+
+.post-meta {
+  color: var(--color-text-secondary);
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
+  border-color: var(--color-border);
 }
 
 /* Post navigation links */
@@ -42,4 +86,65 @@ hr {
   transform: translateY(-50%);
   font-size: 2.5em;
   opacity: 0.3;
+}
+
+/* ============================================
+   Interactive Button Styles for Blog Posts
+   ============================================ */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 2rem;
+}
+
+.btn-post {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem 0;
+  background-color: var(--color-button-bg);
+  border: 2px solid var(--color-button-border);
+  border-radius: 6px;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+  min-width: 200px;
+  text-align: center;
+}
+
+.btn-post:hover {
+  background-color: var(--color-button-border);
+  color: var(--color-bg-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+}
+
+.btn-post:active {
+  transform: translateY(0);
+}
+
+.btn-post-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.post-excerpt {
+  margin-top: 0.5rem;
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive design for buttons */
+@media (max-width: 600px) {
+  .btn-post {
+    display: block;
+    width: 100%;
+    min-width: unset;
+  }
 }
