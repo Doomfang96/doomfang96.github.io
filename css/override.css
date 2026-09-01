@@ -45,6 +45,10 @@ a:hover {
   color: #ffffff;
 }
 
+.site-title {
+  color: #ffffff !important;
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -116,6 +120,41 @@ pre code {
 
 .hljs-variable {
   color: #9cdcfe;
+}
+
+/* ============================================
+   T-SQL Specific Syntax Highlighting
+   ============================================ */
+.language-tsql .hljs-keyword {
+  color: #0066ff;
+  font-weight: bold;
+}
+
+.language-tsql .hljs-string {
+  color: #ff6b6b;
+}
+
+.language-tsql .hljs-number {
+  color: #51cf66;
+}
+
+.language-tsql .hljs-literal {
+  color: #51cf66;
+  font-weight: bold;
+}
+
+.language-tsql .hljs-built_in {
+  color: #748fbf;
+  font-weight: bold;
+}
+
+.language-tsql .hljs-attr {
+  color: #74b7ff;
+}
+
+.language-tsql .hljs-comment {
+  color: #70a070;
+  font-style: italic;
 }
 
 /* Post navigation links */
