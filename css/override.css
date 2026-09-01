@@ -41,6 +41,10 @@ a:visited {
   color: #ffffff;
 }
 
+.page-link {
+  color: #ffffff;
+}
+
 .post-meta {
   color: var(--color-text-secondary);
 }
