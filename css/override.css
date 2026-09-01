@@ -41,10 +41,81 @@ a:hover {
   color: var(--color-text-secondary);
 }
 
+.post-title {
+  color: #ffffff;
+}
+
 hr {
   margin-top: 30px;
   margin-bottom: 20px;
   border-color: var(--color-border);
+}
+
+/* ============================================
+   Code Block Styling
+   ============================================ */
+pre {
+  background-color: #1e1e1e;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+code {
+  background-color: #1e1e1e;
+  color: #e8e8e8;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+}
+
+pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* Syntax highlighting for languages */
+.hljs {
+  background-color: #1e1e1e;
+  color: #e8e8e8;
+}
+
+.hljs-literal,
+.hljs-title.function_,
+.hljs-title.class_,
+.hljs-keyword {
+  color: #569cd6;
+}
+
+.hljs-string,
+.hljs-literal {
+  color: #ce9178;
+}
+
+.hljs-number {
+  color: #b5cea8;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #9cdcfe;
+}
+
+.hljs-comment {
+  color: #6a9955;
+  font-style: italic;
+}
+
+.hljs-type {
+  color: #4ec9b0;
+}
+
+.hljs-variable {
+  color: #9cdcfe;
 }
 
 /* Post navigation links */
