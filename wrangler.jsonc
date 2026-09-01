@@ -1,7 +1,9 @@
 {
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "doomfang96-github-io",
   "compatibility_date": "2026-09-01",
   "assets": {
-    "directory": "./_site"
+    "directory": "./_site",
+    "html_handling": "auto-trailing-slash"
   }
 }
