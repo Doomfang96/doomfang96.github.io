@@ -364,3 +364,24 @@ pre code {
     font-size: 0.9rem;
   }
 }
+
+/* ============================================
+   Social Media Links Styling
+   ============================================ */
+.social-media-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-media-list a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-media-list a:hover {
+  color: var(--color-accent);
+}
+
+.social-media-list svg {
+  fill: #ffffff;
+}
