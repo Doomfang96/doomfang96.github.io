@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+Documenting my self-study and personal interests.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Currently focusing on developing my homelab and building skills in infrastructure.
