@@ -11,20 +11,27 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+    <div class="post-list">
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <a class="btn-post" href="{{ post.url | relative_url }}">
-          <span class="btn-post-title">{{- post.title | escape -}}</span>
+      <article class="post-card">
+        <a href="{{ post.url | relative_url }}" class="post-card-link">
+          <div class="post-card-content">
+            <h3 class="post-card-title">{{- post.title | escape -}}</h3>
+            {%- if site.show_excerpts -%}
+              <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+            {%- endif -%}
+            <div class="post-card-meta">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span class="post-card-date">{{ post.date | date: date_format }}</span>
+              {%- if post.author -%}
+                <span class="post-card-author"> · {{ post.author }}</span>
+              {%- endif -%}
+            </div>
+          </div>
         </a>
-        {%- if site.show_excerpts -%}
-          <p class="post-excerpt">{{ post.excerpt }}</p>
-        {%- endif -%}
-      </li>
+      </article>
       {%- endfor -%}
-    </ul>
+    </div>
   {%- endif -%}
 
 </div>
