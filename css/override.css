@@ -37,6 +37,10 @@ a:hover {
   color: var(--color-accent-hover);
 }
 
+a:visited {
+  color: #ffffff;
+}
+
 .post-meta {
   color: var(--color-text-secondary);
 }
@@ -165,6 +169,7 @@ pre code {
 .post_navi-label {
   font-size: 0.8em;
   opacity: 0.5;
+  color: #ffffff;
 }
 
 .post_navi .post_navi-item {
@@ -273,7 +278,7 @@ pre code {
 }
 
 .post-card:hover {
-  background-color: #353535;
+  background-color: #4a4a4a;
   border-color: var(--color-button-border);
   box-shadow: 0 8px 20px rgba(74, 158, 255, 0.2);
   transform: translateY(-4px);
