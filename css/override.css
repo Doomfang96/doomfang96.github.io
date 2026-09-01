@@ -368,20 +368,16 @@ pre code {
 /* ============================================
    Social Media Links Styling
    ============================================ */
-.social-media-list {
-  display: flex;
-  gap: 1rem;
-}
-
-.social-media-list a {
+.site-footer .social-media-list a,
+.site-footer .social-media-list a:visited {
   color: #ffffff;
   text-decoration: none;
 }
 
-.social-media-list a:hover {
+.site-footer .social-media-list a:hover {
   color: var(--color-accent);
 }
 
-.social-media-list svg {
+.site-footer .social-media-list .svg-icon {
   fill: #ffffff;
 }
