@@ -47,11 +47,9 @@ This is the most dangerous word to learn when dealing with hardware.
 
 Spending more to save money in the long run is usually the smart choice, but it's extremely easy for it to become an excuse to spend more on things you simply dont need. I didn't _need_ 2.5GbE networking, and most of my devices currently support up to 1GbE, but I might _eventually_.
 
-Individually, these decisions made sense, but in hindsight I was left with much more hardware than I had any immediate use for.
+While these decisions made sense individually, I was left with much more hardware than I had any immediate use for. Despite approaching this stage the wrong way, having more resources than necessary gave me a lot of headroom to experiment and run heavier loads on my servers.
 
-On the bright side, having more resources than necessary gives me a lot of headroom to experiment and run heavier loads on my servers. Unfortunately, I ended up approaching the whole thing backwards.
-
-I now have to find things to run on all of my hardware, instead of buying hardware for things I want to run. Ironically, this motivates me to do more with my homelab to make sure it doesn't end up being a waste of money.
+I now have to find things to run on all of my hardware instead of buying hardware for things I want to run. Ironically, this motivates me to do more with my homelab to make sure it doesn't end up being a waste of money.
 
 ## Final inventory
 
