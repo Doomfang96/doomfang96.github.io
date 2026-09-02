@@ -56,7 +56,7 @@ I now have to find things to run on all of my hardware, instead of buying hardwa
 ## Final inventory
 
 |---|---|
-| **Dell OptiPlex 7040 Micro x2** | i7-6700T · 64 GB RAM · 256 GB SATA + 256 GB NVMe SSD |
+| **2x Dell OptiPlex 7040 Micro** | i7-6700T · 64 GB RAM · 256 GB SATA + 256 GB NVMe SSD |
 | **Dell OptiPlex 7060 Micro** | i7-8700T · 32 GB RAM · 256 GB SATA SSD |
 | **Dell OptiPlex 7060 SFF** | i7-8700 · 32 GB RAM · 512 GB SATA SSD |
 | **Lenovo ThinkCentre M720q** | i5-8500T · 8 GB RAM · 256 GB NVMe SSD |
