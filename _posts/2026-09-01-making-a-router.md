@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Making a router out of an old Mini PC"
+title: "Turning a Mini PC into a Router"
 date: 2026-09-02
 author: "James"
 ---
