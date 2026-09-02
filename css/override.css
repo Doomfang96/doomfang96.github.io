@@ -356,10 +356,12 @@ pre code {
 
 .post-card-date {
   font-weight: 500;
+  text-decoration: none;
 }
 
 .post-card-author {
-  font-style: italic;
+  font-style: normal;
+  text-decoration: none;
 }
 
 /* Responsive design for cards */
