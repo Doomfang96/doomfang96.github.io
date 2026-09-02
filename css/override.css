@@ -399,3 +399,64 @@ pre code {
 .site-footer .social-media-list .svg-icon {
   fill: #ffffff;
 }
+
+/* ============================================
+   Table Styling
+   ============================================ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #404040;
+  border-bottom: 2px solid var(--color-accent);
+}
+
+th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #ffffff;
+  border-right: 1px solid var(--color-border);
+}
+
+th:last-child {
+  border-right: none;
+}
+
+td {
+  padding: 0.875rem 1rem;
+  border-right: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+}
+
+td:last-child {
+  border-right: none;
+}
+
+tbody tr {
+  border-bottom: 1px solid var(--color-border);
+  transition: background-color 0.2s ease;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--color-bg-secondary);
+}
+
+tbody tr:nth-child(even) {
+  background-color: #353535;
+}
+
+tbody tr:hover {
+  background-color: #3d3d3d;
+}
+
+tbody tr:last-child {
+  border-bottom: none;
+}
