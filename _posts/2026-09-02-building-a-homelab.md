@@ -11,7 +11,7 @@ There isn't really a concrete definition.
 
 Put simply, it can be whatever you want it to be.
 
-I've generally understood it as a personal environment to learn and experiment with technology from the comfort of your home. What you want to do and what kind of budget you have will very much affect what it is, but these constraints are usually what end up driving the learning process.
+I've generally understood it as a personal environment to learn and experiment with technology. What you want to do and what kind of budget you have will very much affect what it is, but these constraints are usually what end up driving the learning process.
 
 In my case, the goal was to gain more experience in infrastructure and networking to understand the underlying backbone that supports all modern systems. I wanted to learn how to build, break and hopefully fix things as I've found it's how I learn best. 
 
